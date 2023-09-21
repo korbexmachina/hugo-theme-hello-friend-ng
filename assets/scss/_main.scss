@@ -40,11 +40,17 @@ body {
   @media (prefers-color-scheme: dark) {
     background-color: $dark-background;
     color: $dark-color;
+    body {
+      background-color: $dark-background;
+    }
   }
 
   @media (prefers-color-scheme: light) {
     background-color: $light-background;
     color: $light-color;
+    body {
+      background-color: $light-background;
+    }
   }
 
   [data-theme=dark] & {
