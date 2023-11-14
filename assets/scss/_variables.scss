@@ -21,24 +21,24 @@
 // $dark-table-color: #4e4e57;
 
 /* Light theme colors */
-$light-background: #eff1f5;
-$light-background-secondary: #e6e9ef;
-$light-background-header: #dce0e8;
-$light-color: #4c4f69;
+$light-background: #FAFAFA;
+$light-background-secondary: #E6E6E5;
+$light-background-header: #E6E6E5;
+$light-color: #181802;
 $light-color-variant: black;
-$light-color-secondary: #6c6f85;
-$light-border-color: #ccd0da;
-$light-table-color: #dcdcdc;
+$light-color-secondary: #F4BD24;
+$light-border-color: #F4BD24;
+$light-table-color: #F4BD24;
 
 /* Dark theme colors */
-$dark-background: #1e1e2e;
-$dark-background-secondary: #181825;
-$dark-background-header: #11111b;
-$dark-color: #cdd6f4;
+$dark-background: #050505;
+$dark-background-secondary: #1A1A19;
+$dark-background-header: #1A1A19;
+$dark-color: #FDFDE7;
 $dark-color-variant: white;
-$dark-color-secondary: #a6adc8;
-$dark-border-color: #313244;
-$dark-table-color: #bcc0cc;
+$dark-color-secondary: #521DD4;
+$dark-border-color: #F4BD24;
+$dark-table-color: #F4BD24;
 
 $media-size-phone: "(max-width: 684px)";
 $media-size-tablet: "(max-width: 900px)";
