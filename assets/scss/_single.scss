@@ -218,6 +218,10 @@
     overflow: hidden;
   }
 
+  a:hover {
+    color: $dark-border-color;
+  }
+
   &__text {
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -231,4 +235,10 @@
   &.previous .button__icon {
     margin-right: 8px;
   }
+}
+
+h1 {
+  background: linear-gradient(120deg, $dark-color-secondary, $dark-border-color);
+  -webkit-background-clip: text;
+  color: transparent;
 }
